@@ -2323,6 +2323,7 @@ export class Portainer implements INodeType {
 			// SERVICE PARAMETERS
 			// ===========================================
 			{
+				displayName: 'Service Name',
 				name: 'serviceName',
 				type: 'string',
 				required: true,
